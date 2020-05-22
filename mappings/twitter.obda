@@ -19,7 +19,7 @@ driverClass     madgik.exareme.utils.embedded.AdpEmbeddedDriver
 [MappingDeclaration] @collection [[
 
 mappingId       twitter_mapping
-target          twitter:{id} twitter:tweetsAbout <http://iswc2018.semanticweb.org/> ; twitter:author {sn}^^xsd:string	 ; twitter:sentiment {sentiment}^^xsd:string .
-source          select distinct id, screen_name as sn, sentiment from (twitterapi key:iswc2018) 
+target          twitter:{id} twitter:tweetsAbout <http://iswc2020.semanticweb.org/> ; twitter:author {sn}^^xsd:string	 ; twitter:sentiment {sentiment}^^xsd:string .
+source          select distinct id, screen_name as sn, sentiment from (twitterapi key:iswc2020) 
 
 ]]
