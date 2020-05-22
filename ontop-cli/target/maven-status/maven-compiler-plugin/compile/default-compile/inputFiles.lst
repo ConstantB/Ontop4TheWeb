@@ -1,0 +1,14 @@
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/OntopBootstrap.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/OntopR2RMLPrettify.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/OntopServer.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/OntopReasoningCommandBase.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/Ontop.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/OntopCompile.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/QuestSesameMaterializerCMD.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/OntopMaterialize.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/OntopHelp.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/OntopMappingOntologyRelatedCommand.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/OntopQuery.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/OntopCommand.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/OntopR2RMLToOBDA.java
+/home/constant/ontop-spatial-tip/ontop-spatial/ontop-cli/src/main/java/org/semanticweb/ontop/cli/OntopOBDAToR2RML.java

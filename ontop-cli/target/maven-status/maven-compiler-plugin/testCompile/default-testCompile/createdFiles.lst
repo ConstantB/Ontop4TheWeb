@@ -1,0 +1,10 @@
+org/semanticweb/ontop/cli/QuestSesameMaterializerCMDTest.class
+org/semanticweb/ontop/cli/OntopServerTest.class
+org/semanticweb/ontop/cli/OntopTest.class
+org/semanticweb/ontop/cli/SimpleMaterializerTest.class
+org/semanticweb/ontop/cli/OntopQueryTest.class
+org/semanticweb/ontop/cli/OntopR2RMLToOBDATest.class
+org/semanticweb/ontop/cli/OntopMaterializeTest.class
+org/semanticweb/ontop/cli/OntopBootstrapTest.class
+org/semanticweb/ontop/cli/OntopR2RMLPrettyfyTest.class
+org/semanticweb/ontop/cli/OntopOBDAToR2RMLTest.class

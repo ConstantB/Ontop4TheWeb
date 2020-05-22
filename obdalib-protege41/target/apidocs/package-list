@@ -1,0 +1,11 @@
+it.unibz.krdb.obda.protege4.core
+it.unibz.krdb.obda.protege4.dialogs
+it.unibz.krdb.obda.protege4.gui
+it.unibz.krdb.obda.protege4.gui.action
+it.unibz.krdb.obda.protege4.gui.component
+it.unibz.krdb.obda.protege4.gui.preferences
+it.unibz.krdb.obda.protege4.gui.tab
+it.unibz.krdb.obda.protege4.gui.treemodels
+it.unibz.krdb.obda.protege4.panels
+it.unibz.krdb.obda.protege4.utils
+it.unibz.krdb.obda.protege4.views

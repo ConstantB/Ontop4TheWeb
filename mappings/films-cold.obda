@@ -1,0 +1,31 @@
+[PrefixDeclaration]
+:               http://meraka/moss/exampleBooks.owl#
+owl:            http://www.w3.org/2002/07/owl#
+rdf:            http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xsd:            http://www.w3.org/2001/XMLSchema#
+rdfs:           http://www.w3.org/2000/01/rdf-schema#
+quest:          http://obda.org/quest#
+strdf:          http://strdf.di.uoa.gr/ontology#
+cd:             http://melodiesproject.eu/CityDistricts/ontology#
+geosparql:      http://www.opengis.net/ont/geosparql#
+ua:	 			http://geo.linkedopendata.gr/urban/ontology#
+ua:	 			http://geo.linkedopendata.gr/urban/ontology#
+wiki:			http://en.wikipedia.org/movies/ontology#
+rot:			http://www.rottentomatoes.com/top/bestofrt/
+
+[SourceDeclaration]
+sourceUri       FILMS
+connectionUrl   jdbc:adp:/home/constant/madis/src/mterm.py
+driverClass     madgik.exareme.utils.embedded.AdpEmbeddedDriver
+
+[MappingDeclaration] @collection [[
+
+mappingId       webtable_rotten_tomatoes
+target          rot:{rank} rot:rank {rank} ; rot:title {Title}^^xsd:string ; rot:reviews  {reviews}^^xsd:integer ; rot:rating {RatingTomatometer}^^xsd:integer .
+source         select  rid as rank, "No. of Reviews" as reviews, Title, RatingTomatometer from webtable('http://www.rottentomatoes.com/top/bestofrt/', 3, -1)
+
+mappingId       webtable_wikipedia
+target          wiki:{rid}  wiki:title {Title}^^xsd:string ; wiki:rank98 {rank98}^^xsd:integer ; wiki:rank07 {rank07} .
+source          select rid, rank98, rank07, Title from (select  rid, Film || " (" || "Release year" || ")" as Title, "1998 rank" as rank98, "2007 rank" as rank07 from  webtable('http://en.wikipedia.org/wiki/AFI%27s_100_Years...100_Movies', 2, -1)) limit 100
+
+]]

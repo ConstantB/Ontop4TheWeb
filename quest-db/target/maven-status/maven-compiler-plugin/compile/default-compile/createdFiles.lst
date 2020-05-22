@@ -1,0 +1,12 @@
+it/unibz/krdb/obda/owlrefplatform/questdb/QuestDBAbstractStore.class
+it/unibz/krdb/obda/owlrefplatform/questdb/QuestDBClassicStore.class
+it/unibz/krdb/obda/owlrefplatform/core/QuestDBStatement.class
+it/unibz/krdb/obda/owlrefplatform/core/QuestDBConnection.class
+it/unibz/krdb/obda/owlrefplatform/questdb/QuestDB$StoreStatus.class
+it/unibz/krdb/obda/owlrefplatform/questdb/QuestDB.class
+it/unibz/krdb/obda/owlrefplatform/questdb/QuestDBClassicStore$RDFTBoxReader.class
+it/unibz/krdb/obda/owlrefplatform/questdb/QuestDBCMD$2.class
+it/unibz/krdb/obda/owlrefplatform/questdb/QuestDB$1.class
+it/unibz/krdb/obda/owlrefplatform/questdb/QuestDBVirtualStore.class
+it/unibz/krdb/obda/owlrefplatform/questdb/QuestDBCMD$1.class
+it/unibz/krdb/obda/owlrefplatform/questdb/QuestDBCMD.class

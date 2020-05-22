@@ -1,0 +1,25 @@
+[PrefixDeclaration]
+:               http://meraka/moss/exampleBooks.owl#
+owl:            http://www.w3.org/2002/07/owl#
+rdf:            http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xsd:            http://www.w3.org/2001/XMLSchema#
+rdfs:           http://www.w3.org/2000/01/rdf-schema#
+quest:          http://obda.org/quest#
+strdf:          http://strdf.di.uoa.gr/ontology#
+cd:             http://melodiesproject.eu/CityDistricts/ontology#
+geosparql:      http://www.opengis.net/ont/geosparql#
+ua:	 			http://geo.linkedopendata.gr/urban/ontology#
+four:		http://foursquare.com/
+
+[SourceDeclaration]
+sourceUri       GISAT
+connectionUrl   jdbc:adp:/home/constant/madis/src/mterm.py
+driverClass     madgik.exareme.utils.embedded.AdpEmbeddedDriver
+
+[MappingDeclaration] @collection [[
+
+mappingId       foursquare_mapping
+target          four:{id} four:hasID {id} ; four:name {name} ; four:hereNow {h}^^xsd:integer	 ; four:contact {contact}^^xsd:integer ; four:cat four:{category}  .
+source          select id, category, name, hereNow_count as h, contact from (foursqr key:coffee near:Chicago rate:-1)
+
+]]

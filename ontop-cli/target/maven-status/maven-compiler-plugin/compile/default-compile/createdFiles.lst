@@ -1,0 +1,13 @@
+org/semanticweb/ontop/cli/OntopCommand.class
+org/semanticweb/ontop/cli/OntopQuery.class
+org/semanticweb/ontop/cli/OntopMappingOntologyRelatedCommand.class
+org/semanticweb/ontop/cli/OntopOBDAToR2RML.class
+org/semanticweb/ontop/cli/OntopHelp.class
+org/semanticweb/ontop/cli/OntopR2RMLPrettify.class
+org/semanticweb/ontop/cli/OntopCompile.class
+org/semanticweb/ontop/cli/OntopMaterialize.class
+org/semanticweb/ontop/cli/OntopReasoningCommandBase.class
+org/semanticweb/ontop/cli/Ontop.class
+org/semanticweb/ontop/cli/OntopBootstrap.class
+org/semanticweb/ontop/cli/OntopR2RMLToOBDA.class
+org/semanticweb/ontop/cli/QuestSesameMaterializerCMD.class

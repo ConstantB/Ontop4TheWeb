@@ -1,0 +1,7 @@
+/home/constant/ontop-spatial-tip/ontop-spatial/quest-db/src/main/java/it/unibz/krdb/obda/owlrefplatform/questdb/QuestDBAbstractStore.java
+/home/constant/ontop-spatial-tip/ontop-spatial/quest-db/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/QuestDBStatement.java
+/home/constant/ontop-spatial-tip/ontop-spatial/quest-db/src/main/java/it/unibz/krdb/obda/owlrefplatform/questdb/QuestDBVirtualStore.java
+/home/constant/ontop-spatial-tip/ontop-spatial/quest-db/src/main/java/it/unibz/krdb/obda/owlrefplatform/questdb/QuestDBClassicStore.java
+/home/constant/ontop-spatial-tip/ontop-spatial/quest-db/src/main/java/it/unibz/krdb/obda/owlrefplatform/questdb/QuestDB.java
+/home/constant/ontop-spatial-tip/ontop-spatial/quest-db/src/main/java/it/unibz/krdb/obda/owlrefplatform/questdb/QuestDBCMD.java
+/home/constant/ontop-spatial-tip/ontop-spatial/quest-db/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/QuestDBConnection.java

@@ -1,0 +1,13 @@
+it.unibz.krdb.obda.owlrefplatform.core
+it.unibz.krdb.obda.owlrefplatform.core.abox
+it.unibz.krdb.obda.owlrefplatform.core.basicoperations
+it.unibz.krdb.obda.owlrefplatform.core.dagjgrapht
+it.unibz.krdb.obda.owlrefplatform.core.mappingprocessing
+it.unibz.krdb.obda.owlrefplatform.core.queryevaluation
+it.unibz.krdb.obda.owlrefplatform.core.reformulation
+it.unibz.krdb.obda.owlrefplatform.core.resultset
+it.unibz.krdb.obda.owlrefplatform.core.sql
+it.unibz.krdb.obda.owlrefplatform.core.srcquerygeneration
+it.unibz.krdb.obda.owlrefplatform.core.translator
+it.unibz.krdb.obda.owlrefplatform.core.unfolding
+org.openrdf.query.algebra
