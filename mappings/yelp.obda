@@ -1,0 +1,27 @@
+[PrefixDeclaration]
+:               http://meraka/moss/exampleBooks.owl#
+owl:            http://www.w3.org/2002/07/owl#
+rdf:            http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xsd:            http://www.w3.org/2001/XMLSchema#
+rdfs:           http://www.w3.org/2000/01/rdf-schema#
+quest:          http://obda.org/quest#
+strdf:          http://strdf.di.uoa.gr/ontology#
+cd:             http://melodiesproject.eu/CityDistricts/ontology#
+geosparql:      http://www.opengis.net/ont/geosparql#
+ua:	 			http://geo.linkedopendata.gr/urban/ontology#
+yelp:		http://yelp.com/ontology#
+
+[SourceDeclaration]
+sourceUri       GISAT
+connectionUrl   jdbc:adp:/home/constant/madis/src/mterm.py
+username        postgres
+password        p1r3as
+driverClass     madgik.exareme.utils.embedded.AdpEmbeddedDriver
+
+[MappingDeclaration] @collection [[
+
+mappingId       yelp_mapping
+target          yelp:{id} yelp:hasID {id} ; yelp:name {name} ; yelp:rating yelp:{rating}  .
+source          select id, rating, name from (yelp key:burgers near:Santiago)
+
+]]
