@@ -57,7 +57,9 @@ All documentation is licensed under the
 [Creative Commons](http://creativecommons.org/licenses/by/4.0/)
 (attribute)  license.
 
-
+References
+--------------------
+For more information about approach behind Ontop4TheWeb, as well as use cases, please read the following technical report: http://arxiv.org/abs/2005.11264 
 
 
 
