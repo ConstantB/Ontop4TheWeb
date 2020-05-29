@@ -8,6 +8,8 @@ posing the queries, thus retrieving the most up-to-date snapshots of data. For t
 that get updated frequently. 
 
 Under the hood 
+------------------------------------
+
 To achieve this magic SPARQL-to-* translation, Ontop4TheWeb employs ontologies and mappings (in R2RML/OBDA format). Mappings map the web data into 
 virtual RDF terms. Ontop and Ontop-spatial use relational databases as back-end. Ontop4TheWeb employs virtual databases. Virtual tables are tables that are not 
 aterialised and do not even exist before a SPARQL query is posed to the system. In tranditional OBDA, mappings contain connection to existing databases and materialised
@@ -26,7 +28,7 @@ Caching stores the results of a virtual table operator to the disk for a configu
 the cached results will be returned, without connecting to the Web API, but only after the time window expires. 
 
 Installation
-
+------------------------------
 *Prerequisities
 Ontop4TheWeb uses the system MadIS as back-end. It is an APSW wrapper for SQLite, enabling users to write their own SQL operators (e.g., virtual tables) in a few lines
 of Python code. This is used in replacement to the DBMSs that serve as back-end systems for traditional OBDA systems like Ontop. 
