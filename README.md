@@ -37,7 +37,11 @@ and follow the installation instractions.
 After madis is installed successfully follow the steps described below: 
 1. Go to the precompiled directory of this repository 
 2. Copy the warfiles included in this directory to the webapps folder of Apache Tomcat and start the webserver (if it is not started already). 
-
+webserver (if it is not started already).
+3. Use an onbda file with the mappings and an ontology in order to set up a repository. Example mappings are provided in the mappings directory. Please note that the ConnectionUrl should be updated with the directory of the MadIS source path.
+4. Using your browser, visit the openrdf-workbench application that has been deployed on Tomcat. 
+5. Create a repository and use your newly created OBDA mappings file and an ontology file.
+After your repository has been set up, you are ready to execute some SPARQL queries!
  
 
 ==================
